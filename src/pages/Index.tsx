@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Globe, ShoppingCart, User, LogIn } from "lucide-react";
 import { useToast } from "@/components/ui/use-toast";
-import { signIn, signOut, useSession } from "@auth/core/react";
+import { signIn, signOut, useSession } from "next-auth/react";
 
 const Index = () => {
   const { toast } = useToast();

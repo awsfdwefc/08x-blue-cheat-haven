@@ -75,6 +75,7 @@ const Index = () => {
               { title: "Premium Bundle", price: "$49.99", features: ["All features", "Priority support", "Lifetime access"] },
               { title: "Wallhack Plus", price: "$19.99", features: ["See through walls", "Distance ESP", "Sound ESP"] },
               { title: "Recoil Master", price: "$34.99", features: ["No recoil", "Spread control", "Aim stability"] },
+              { title: "Ultimate Package", price: "$79.99", features: ["All premium features", "24/7 VIP Support", "Early access to updates", "Custom configurations"] },
             ].map((product, index) => (
               <Card 
                 key={index} 
